@@ -3,4 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     Sayfanın içerik kısmı
+    <div style="background-color:plum">Pembe</div>
+    <div style="background-color:sandybrown; margin-top:18px" >Yavru Ağzı</div>
 </asp:Content>
