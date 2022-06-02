@@ -86,49 +86,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- news -->
         <div class="news" id="gallery">
             <div class="text-center">
-                <h2 class="w3_head">Gallery</h2>
-                <p class="main_p mb-5  text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
-            </div>
-            <div class="row news-grids">
-                <div class="col-md-4 news-grids-left">
-                    <div class="news_top">
-                        <a href="#gal1">
-                            <img src="images/g1.jpg" alt="news image" class="img-fluid"></a>
-                        <h4>Nulla pellentesque</h4>
-                    </div>
-                    <div class="news_top mt-5">
-                        <a href="#gal2">
-                            <img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
-                        <h4>Nulla pellentesque</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 news-grids-middle">
-                    <div class="news_top">
-                        <a href="#gal3">
-                            <img src="images/about.jpg" alt="news image" class="img-fluid"></a>
-                        <h4>Nulla pellentesque</h4>
-                    </div>
-                    <div class="news_top mt-5">
-                        <a href="#gal4">
-                            <img src="images/g3.jpg" alt="news image" class="img-fluid"></a>
-                        <h4>Nulla pellentesque</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 news-grids-right">
-                    <div class="news_top">
-                        <a href="#gal5">
-                            <img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
-                        <h4>Nulla pellentesque</h4>
-                    </div>
-                    <div class="news_top mt-5">
-                        <a href="#gal6">
-                            <img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
-                        <h4>Nulla pellentesque</h4>
-                    </div>
-                </div>
+                <h2 class="w3_head">Ürünler</h2>
+                <table class="table table-table-bordered">
+                    <tr>
+                        <th>ID</th>
+                        <th>Ürün Adı</th>
+                        <th>Marka</th>
+                        <th>Satış Fiyatı</th>
+                    </tr>
+                    <asp:Repeater ID="Repeater2" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("ID") %></td>
+                                <td><%# Eval("AD") %></td>
+                                <td><%# Eval("MARKA") %></td>
+                                <td><%# Eval("SATISFIYAT") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
 
-
+                </table>
             </div>
+
         </div>
         <!-- popup-->
         <div id="gal1" class="pop-overlay animate">

@@ -15,6 +15,8 @@ namespace TeknikServisWeb
         {
             Repeater1.DataSource = db.TBLHAKKIMIZDA.ToList();
             Repeater1.DataBind();
+            Repeater2.DataSource = db.TBLURUN.ToList();
+            Repeater2.DataBind();
         }
     }
 }

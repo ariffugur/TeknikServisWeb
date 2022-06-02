@@ -12,6 +12,19 @@
           <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="METIN" Type="nchar" MaxLength="1000" />
         </EntityType>
+        <EntityType Name="TBLURUN">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AD" Type="varchar" MaxLength="30" />
+          <Property Name="MARKA" Type="varchar" MaxLength="30" />
+          <Property Name="ALISFIYAT" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="SATISFIYAT" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="STOK" Type="smallint" />
+          <Property Name="KATEGORI" Type="tinyint" />
+          <Property Name="DURUM" Type="bit" />
+        </EntityType>
         <EntityType Name="TBLURUNTAKIP">
           <Key>
             <PropertyRef Name="TAKIPID" />
@@ -23,6 +36,7 @@
         </EntityType>
         <EntityContainer Name="dataModelStoreContainer">
           <EntitySet Name="TBLHAKKIMIZDA" EntityType="Self.TBLHAKKIMIZDA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLURUN" EntityType="Self.TBLURUN" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLURUNTAKIP" EntityType="Self.TBLURUNTAKIP" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -41,6 +55,7 @@
         <EntityContainer Name="dataEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="TBLURUNTAKIP" EntityType="Self.TBLURUNTAKIP" />
           <EntitySet Name="TBLHAKKIMIZDA" EntityType="dataModel.TBLHAKKIMIZDA" />
+          <EntitySet Name="TBLURUN" EntityType="dataModel.TBLURUN" />
         </EntityContainer>
         <EntityType Name="TBLHAKKIMIZDA">
           <Key>
@@ -48,6 +63,19 @@
           </Key>
           <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="METIN" Type="String" MaxLength="1000" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TBLURUN">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="MARKA" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="ALISFIYAT" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="SATISFIYAT" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="STOK" Type="Int16" />
+          <Property Name="KATEGORI" Type="Byte" />
+          <Property Name="DURUM" Type="Boolean" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -69,6 +97,20 @@
             <EntityTypeMapping TypeName="dataModel.TBLHAKKIMIZDA">
               <MappingFragment StoreEntitySet="TBLHAKKIMIZDA">
                 <ScalarProperty Name="METIN" ColumnName="METIN" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLURUN">
+            <EntityTypeMapping TypeName="dataModel.TBLURUN">
+              <MappingFragment StoreEntitySet="TBLURUN">
+                <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+                <ScalarProperty Name="KATEGORI" ColumnName="KATEGORI" />
+                <ScalarProperty Name="STOK" ColumnName="STOK" />
+                <ScalarProperty Name="SATISFIYAT" ColumnName="SATISFIYAT" />
+                <ScalarProperty Name="ALISFIYAT" ColumnName="ALISFIYAT" />
+                <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+                <ScalarProperty Name="AD" ColumnName="AD" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
