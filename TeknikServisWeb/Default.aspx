@@ -37,11 +37,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="sidenav">
         <div class="row side_top">
             <div class="col-4 side_top_left">
-                <img src="web/images/t3.jpg" alt="news image" class="img-fluid navimg">
+                <img src="web/images/pro1.jpg" alt="news image" class="img-fluid navimg">
             </div>
             <div class="col-8 side_top_right">
-                <h6>Steve Waugh </h6>
-                <p>Photographer</p>
+                <h6>Teknik Servis</h6>
+                <p>Ürün Takibi</p>
             </div>
         </div>
         <header>
@@ -50,11 +50,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <label for="drop" class="toggle">Menu</label>
                     <input type="checkbox" id="drop">
                     <ul class="menu">
-                        <li class="active"><a href="#home" class="scroll">Home</a></li>
-                        <li class="mt-sm-3"><a href="#about" class="scroll">About</a></li>
-                        <li class="mt-sm-3"><a href="#gallery" class="scroll">Gallery</a></li>
-                        <li class="mt-sm-3"><a href="#services" class="scroll">Services</a></li>
-                        <li class="mt-sm-3"><a href="#contact" class="scroll">Contact</a></li>
+                        <li class="active"><a href="#home" class="scroll">Ana Sayfa</a></li>
+                        <li class="mt-sm-3"><a href="#about" class="scroll">Hakkımızda</a></li>
+                        <li class="mt-sm-3"><a href="#gallery" class="scroll">Ürünler</a></li>
+                        <li class="mt-sm-3"><a href="#services" class="scroll">Ürün Takibi</a></li>
+                        <li class="mt-sm-3"><a href="#contact" class="scroll">İletişim</a></li>
                     </ul>
                 </nav>
             </div>
