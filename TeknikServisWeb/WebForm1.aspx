@@ -9,20 +9,17 @@
     <asp:Button ID="Button1" runat="server" Text="Ara" OnClick="Button1_Click1" CssClass="btn btn-primary"/>
     <table class="table table-bordered"; style="margin-top:15px">
         <tr>
-            <th>Takip ID</th>
             <th>Açıklama</th>
-            <th>Tarih</th>
+            <th>Tarih</th    
         </tr>
+        <asp:Repeater ID="Repeater1" runat="server">
+            <ItemTemplate>
          <tr>
-            <th>1</th>
-            <th>Ürün Serviste</th>
-            <th>05.02.2022</th>
+            <td><%# Eval("ACIKLAMA") %></td>
+            <td><%# Eval("TARIH") %></td>
         </tr>
-         <tr>
-            <th>2</th>
-            <th>Ürün Bakımda</th>
-            <th>05.01.2022</th>
-        </tr>
+            </ItemTemplate>
+        </asp:Repeater>
     </table>
 
 </asp:Content>
