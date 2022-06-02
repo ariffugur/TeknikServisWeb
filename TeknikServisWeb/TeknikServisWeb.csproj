@@ -94,6 +94,7 @@
     <Content Include="web\fonts\fontawesome-webfont.svg" />
     <Content Include="web\images\1.jpg" />
     <Content Include="web\images\about.jpg" />
+    <Content Include="web\images\about.png" />
     <Content Include="web\images\about1.png" />
     <Content Include="web\images\about2.png" />
     <Content Include="web\images\banner1.jpg" />
@@ -134,6 +135,9 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Entity\TBLHAKKIMIZDA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\TBLILETISIM.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\TBLURUN.cs">

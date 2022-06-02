@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>Polaroid Photography Category Bootstrap Responsive website Template | Home :: w3layouts</title>
+    <title>Teknik Servis ve Ürün Takip Sistemi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Polaroid Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -73,7 +73,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- about -->
         <section class="slide-wrapper" id="about">
             <h3 class="w3_head mb-5">Hakkımızda</h3>
-            <img src="images/1.jpg" class="img-fluid" alt="">
+            <img src="web/images/about.png" class="img-fluid" alt="">
             <p class="iner mt-5">
                 <asp:Repeater ID="Repeater1" runat="server">
                     <ItemTemplate>
@@ -167,25 +167,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                              <asp:TextBox ID="TextBox3" runat="server" placeholder="Konu"></asp:TextBox>
                     
                              <asp:TextBox ID="TextBox4" runat="server" placeholder="Mesajınız" TextMode="MultiLine" Height="50"></asp:TextBox>
-                   <asp:Button ID="Button1" runat="server" Text="Gönder" />
+                   <asp:Button ID="Button1" runat="server" Text="Gönder" OnClick="Button1_Click" />
                 </form>
             </div>
             <div class="cpy-right text-center">
                 <div class="follow">
                     <ul class="social_section_1info">
-                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                        <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                        <li><a href="http://wwww.google.com"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="http://wwww.google.com"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="http://wwww.google.com"><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href="http://wwww.google.com"><span class="fa fa-dribbble"></span></a></li>
 
                         <li><a href="#"><span class="fa fa-vimeo"></span></a></li>
                         <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
                     </ul>
                 </div>
-                <p>
-                    © 2018 Polaroid. All rights reserved | Design by
-					<a href="http://w3layouts.com">W3layouts.</a>
-                </p>
+              
             </div>
         </section>
         <!-- //contact -->

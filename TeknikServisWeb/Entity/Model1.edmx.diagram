@@ -8,6 +8,7 @@
         <EntityTypeShape EntityType="dataModel.TBLURUNTAKIP" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="dataModel.TBLHAKKIMIZDA" Width="1.5" PointX="3.375" PointY="0.75" />
         <EntityTypeShape EntityType="dataModel.TBLURUN" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="dataModel.TBLILETISIM" Width="1.5" PointX="3.375" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
