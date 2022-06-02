@@ -9,6 +9,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    Burası Master Alan
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
