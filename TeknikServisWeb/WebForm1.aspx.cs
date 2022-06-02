@@ -10,12 +10,14 @@ namespace TeknikServisWeb
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+        dataEntities1 db = new dataEntities1();
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-       dataEntities1 db=new dataEntities1();
-        protected void Button1_Click(object sender, EventArgs e)
+
+
+        protected void Button1_Click1(object sender, EventArgs e)
         {
 
         }
