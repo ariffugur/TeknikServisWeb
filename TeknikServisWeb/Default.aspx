@@ -109,96 +109,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
 
         </div>
-        <!-- popup-->
-        <div id="gal1" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-
-        <!-- popup-->
-        <div id="gal2" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-        <!-- popup-->
-        <div id="gal3" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/about.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup3 -->
-        <!-- popup-->
-        <div id="gal4" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-        <!-- popup-->
-        <div id="gal5" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-        <!-- popup-->
-        <div id="gal6" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-
-        <!-- //news -->
-
         <!--services-->
         <div class="wthree_pvtits-services align-w3" id="services">
             <div class="container">
                 <div class="wthree_pvt_title text-center">
-                    <h3 class="w3_head">services
+                    <h3 class="w3_head">Teknik Servis
                     </h3>
-                    <p class="main_p mb-5  text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
-                </div>
+                    <p class="main_p mb-5  text-center mx-auto">Mağazamızdan almış olduğunuz herhangi bir üründe problem yaşamanız durumunda, 2 yıl boyunca herhangi bir ücret ödemeden garanti hizmetimizden faydalanabilirsiniz.</p>
+                <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="WebForm1.Aspx" style="background-color:lightblue" "button">Arızalı Ürün Takibi</a>
+                    </div>
                 <div class="wthree_pvtits-services-row row">
                     <div class="col-lg-4 col-md-6 wthree_sgrid py-sm-5 py-4">
                         <span class="fa fa-cog p-sm-4 p-2"></span>
-                        <h4 class="my-3">Lorem ipsum dolor </h4>
+                        <h4 class="my-3">Hızlı Teknik Servis</h4>
                     </div>
                     <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
                         <span class="fa fa-refresh p-sm-4 p-2"></span>
-                        <h4 class="my-3">sit amet sed diam nonumy </h4>
+                        <h4 class="my-3">Arıza Durum Sorgulama </h4>
                     </div>
                     <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
                         <span class="fa fa-camera p-sm-4 p-2"></span>
-                        <h4 class="my-3">eirmod tempor invidunt</h4>
+                        <h4 class="my-3">Güvenilir Teslimat</h4>
                     </div>
                     <div class="col-lg-4 col-md-6 wthree_sgrid   py-sm-5 py-4">
                         <span class="fa fa-bell-o p-sm-4 p-2"></span>
-                        <h4 class="my-3">ut labore et dolore </h4>
+                        <h4 class="my-3">2 Yıl Ürün Garantisi</h4>
                     </div>
                     <div class="col-lg-4 col-md-6  wthree_sgrid  py-sm-5 py-4">
                         <span class="fa fa fa-smile-o p-sm-4 p-2"></span>
-                        <h4 class="my-3">magna aliquyam erat</h4>
+                        <h4 class="my-3">%97 Memnuniyet</h4>
                     </div>
                     <div class="col-lg-4 col-md-6  wthree_sgrid   py-sm-5 py-4">
                         <span class="fa fa-plus-square-o  p-sm-4 p-2"></span>
-                        <h4 class="my-3">At vero eos et accusam</h4>
+                        <h4 class="my-3">Onlarca Kategori</h4>
                     </div>
                 </div>
             </div>
