@@ -133,6 +133,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Entity\TBLHAKKIMIZDA.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Entity\TBLURUNTAKIP.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

@@ -64,19 +64,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="banner-text-w3ls">
             <div class="container">
                 <div class="mx-auto text-center">
-                    <h1>Nibh eleifend nulla nascetur pharetra
-	<br>
-                        commodo mi augue interdum tellus.</h1>
-                    <p class="banp mx-auto mt-3">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu  </p>
-                    <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">Learn More</a>
+                    <h1>En Ucuz Fiyatlarla En İyi Ürünler Sizlerle!</h1>
+                    <p class="banp mx-auto mt-3">Yüzlerce Ürünle Sizlerleyiz...</p>
+                    <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">Daha Fazla</a>
                 </div>
             </div>
         </div>
         <!-- about -->
         <section class="slide-wrapper" id="about">
-            <h3 class="w3_head mb-5">About Me </h3>
+            <h3 class="w3_head mb-5">Hakkımızda</h3>
             <img src="images/1.jpg" class="img-fluid" alt="">
-            <p class="iner mt-5">Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia natoque aenean scelerisque.</p>
+            <p class="iner mt-5">
+                <asp:Repeater ID="Repeater1" runat="server">
+                    <ItemTemplate>
+                        <%# Eval("METIN") %>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </p>
         </section>
         <!-- //about -->
         <!-- news -->
