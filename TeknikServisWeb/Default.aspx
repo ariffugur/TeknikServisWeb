@@ -152,21 +152,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
         <!-- contact -->
         <section class="wedo" id="contact">
-            <h3 class="w3_head mb-5">Contact </h3>
-            <p class="main_p mb-5  text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
+            <h3 class="w3_head mb-5">Bize Ulaşın </h3>
+            <p class="main_p mb-5  text-center mx-auto">Aldığınız herhangi bir üründe problem yaşamanız durumunda bize aşağıdaki panelden ulaşabilirsiniz.</p>
             <div class="contact_grid_right mt-5 mx-auto text-center">
-                <form action="#" method="post">
+                <form action="#" method="post" runat="server">
                     <div class="row contact_top">
                         <div class="col-sm-6">
-                            <input type="text" name="Name" placeholder="Name" required="">
+                               <asp:TextBox ID="TextBox1" runat="server" placeholder="Adınız"></asp:TextBox>
                         </div>
                         <div class="col-sm-6">
-                            <input type="email" name="Email" placeholder="Email" required="">
+                             <asp:TextBox ID="TextBox2" runat="server" placeholder="Email"></asp:TextBox>
                         </div>
                     </div>
-                    <input type="text" name="Name" placeholder="Name" required="">
-                    <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-                    <input type="submit" value="Send Message">
+                             <asp:TextBox ID="TextBox3" runat="server" placeholder="Konu"></asp:TextBox>
+                    
+                             <asp:TextBox ID="TextBox4" runat="server" placeholder="Mesajınız" TextMode="MultiLine" Height="50"></asp:TextBox>
+                   <asp:Button ID="Button1" runat="server" Text="Gönder" />
                 </form>
             </div>
             <div class="cpy-right text-center">
