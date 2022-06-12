@@ -14,6 +14,7 @@ namespace TeknikServisWeb
         protected void Page_Load(object sender, EventArgs e)
         {
             Repeater1.DataSource = db.TBLHAKKIMIZDA.ToList();
+            Repeater1.DataSource = db.TBLHAKKIMIZDA.ToList();
             Repeater1.DataBind();
             Repeater2.DataSource = db.TBLURUN.ToList();
             Repeater2.DataBind();
